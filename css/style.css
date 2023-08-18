@@ -608,7 +608,7 @@ a {
     border-radius: 50%;
     border: 3px solid hsl(0 0% 50% / .5);
     font-family: 'Montserrat' ,Monospace ;
-    font-size: 2rem;
+    font-size: 1.75rem;
     position: relative;
   }
   .countdown > .part.days { --num: 365 }
