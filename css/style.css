@@ -601,15 +601,15 @@ a {
     gap: 2rem;
   }
   .countdown > .part > .number {
-    aspect-ratio: 1;
+    width: 3.5rem;
+    height: 3.5rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    border: 3
-     px solid hsl(0 0% 50% / .5);
-	 font-family: 'Montserrat' ,Monospace ;
+    border: 3px solid hsl(0 0% 50% / .5);
+    font-family: 'Montserrat' ,Monospace ;
     font-size: 2rem;
-    position: relative
+    position: relative;
   }
   .countdown > .part.days { --num: 365 }
   .countdown > .part.hours { --num: 24 }
